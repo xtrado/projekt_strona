@@ -70,7 +70,7 @@ body{
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    
+    margin-top:-30px;
 }
 #first-p{
     color: white;
@@ -91,7 +91,7 @@ body{
 
 .second-look{
     background-color: #FDF9F9;
-    height: 60vh;
+    height: 70vh;
 }
 
 .second-container{
@@ -154,3 +154,75 @@ body{
     text-align: center;
 }
 
+.third-look{
+    height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url('/projekt_strona/images/shop1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.third-con{
+    margin: 0 200px 0 200px;
+    height: 70%;
+    letter-spacing: 1px;
+    backdrop-filter: blur(2px);
+    border: 3px solid white;
+    border-radius: 70px;
+}
+
+
+.third-text{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+}
+#third-two{
+    margin-top: -30px;
+}
+.third-rest{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 200px;
+}
+
+.third-rest p{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.third-rest img{
+    margin: 50px auto 0 auto;
+    height: 70px;
+    width: 70px;
+}
+.img-1{
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-2{
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.img-3{
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-1 :hover{
+    transform: scale(1.2)
+}
+.img-2 :hover{
+    transform: scale(1.2)
+}
+.img-3 :hover{
+    transform: scale(1.2)
+}

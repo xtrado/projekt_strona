@@ -226,3 +226,25 @@ body{
 .img-3 :hover{
     transform: scale(1.2)
 }
+
+.foot{
+    height: 20vh;
+    background-color: #D8D3D3;
+    
+}
+footer{
+    margin: 0 100px;
+    background-color: yellow;
+    
+}
+.foot-text{
+    text-align: center;
+}
+.socials{
+    border: 3px solid black;
+    width: 100%;
+}
+.socials a img{
+    height: 60px;
+    width: 60px;
+}

@@ -61,7 +61,7 @@ body{
 
 
 .content{
-    background-color: #645C5C;
+    background-color: #D8D3D3;
 }
 .first-look{
     height: 100vh;
@@ -70,23 +70,87 @@ body{
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    display: flex;
+    
 }
 #first-p{
-    position: relative;
     color: white;
-    left: 100px;
-    top: 88px;
     font-size: 30px;
+    margin-left: 100px;
+    padding-top: 100px;
 }
 
-
 #first-h{
-    position: relative;
     color: white;
     text-align: center;
     font-size: 60px;
-    top: 380px;
     font-weight: 300;
     letter-spacing: 0.5px;
+    text-align: center;
+    padding-top: 270px;
 }
+
+.second-look{
+    background-color: #FDF9F9;
+    height: 60vh;
+}
+
+.second-container{
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.second-texts{
+    text-align: center;
+}
+
+.second-headone{
+    font-size: 35px;
+    
+}
+.second-headtwo{
+    font-size: 28px;
+    margin-top: -40px;
+    color: green;
+}
+
+
+.second-icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 200px;
+    font-size: 22px;
+}
+
+#phone-icon{
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+}
+
+#tick-icon{
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+}
+
+#car-icon{
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+}
+#p-1{
+    text-align: center;
+}
+
+#p-2{
+    text-align: center;
+}
+
+#p-3{
+    text-align: center;
+}
+

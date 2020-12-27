@@ -61,7 +61,7 @@ body{
 }
 .first-look{
     height: 100vh;
-    background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url('/projekt_strona/images/smartparking.jpeg');
+    background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url('/images/smartparking.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -134,8 +134,8 @@ body{
 }
 
 #car-icon{
-    height: 80px;
-    width: 80px;
+    height: 90px;
+    width: 90px;
     margin: 0 auto;
 }
 #p-1{
@@ -152,7 +152,7 @@ body{
 
 .third-look{
     height: 100vh;
-    background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url('/projekt_strona/images/shop1.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url('/images/shop1.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;

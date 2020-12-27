@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    display: flex;
+    height: 80px;
+    
+}
+
+.logo{
+    margin-left: 100px;
+}
+
+.logo a img{
+    height: 75px;
+    width: 75px;
+}
+.menu{
+    width: 100%;
+    margin-right: 100px;
+}
+
+.ul-menu-main{
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    height: 100%;
+    text-align: center;
+    
+}
+
+.ul-menu-main li{
+    display: block;
+    margin-block: auto;
+    font-size: 27px;
+    color: #645C5C;
+
+}
+
+.ul-menu-main li a{
+    text-decoration: none;
+    color: #645C5C;
+}
+
+.ul-menu-main :hover{
+    color: black;
+    font-size: 30px;
+}

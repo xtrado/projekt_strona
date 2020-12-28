@@ -61,7 +61,6 @@ body{
 }
 
 .main{
-    border: 5px solid black;
     display: grid;
     grid-template-columns: 100px 25vw 60vw 100px;
     background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url("/projekt_strona/images/pexels.jpg");
@@ -72,7 +71,6 @@ body{
 }
 .head-aside{
     text-align: center;
-    border: 1px solid black;
 }
 .lets{
     font-size: 40px;
@@ -83,17 +81,27 @@ body{
 }
 
 .contact{
-    border: 3px solid purple;
     grid-column: 2/3;
     backdrop-filter: saturate(80%);
     color: white;
 }
+
+#country-1{
+    border-bottom: 1px solid white;
+}
+#country-2{
+    border-bottom: 1px solid white;
+}
+#country-3{
+    border-bottom: 1px solid white;
+    
+}
+
 form{
     height: 70%;
     
 }
 .forms{
-    border: 2px dotted green;
     grid-column: 3/4;
     margin: 0 100px;
     height: 100%;
@@ -107,7 +115,6 @@ form{
     display: grid;
     grid-template-columns: repeat(4, 1fr) ;
     /*                    1   2   3   4   5*/
-    border: 2px dotted purple;
     height: 100%;
     grid-gap: 5px;
 }

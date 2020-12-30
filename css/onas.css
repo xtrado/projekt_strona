@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    background-color: #FDF9F9;
 }
 
 .container{
@@ -11,7 +12,7 @@ body{
 .navbar{
     display: flex;
     height: 80px;
-    
+    background-color: white;
 }
 
 .logo{
@@ -442,9 +443,16 @@ body{
 .soft4-pos{
     margin-bottom: 5px;
     margin-top: 0;
-
 }
-
+hr{
+    height: 1px;
+    background-color: #31A442;
+    width: 70%;
+}
+a{
+    text-decoration: none;
+    color: #3D3C3C;
+}
 .advert{
     margin-top: 50px;
     background-color: #31A442;

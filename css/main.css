@@ -272,6 +272,9 @@ footer{
     .content{
         width: 100%;
     }
+    .first-look{
+        margin: 0;
+    }
     /* zielone elementy */
     .second-icons p{
         margin-left: auto;
@@ -346,7 +349,7 @@ footer{
         display: none;
     }
     /* navbar */
-
+    
     /* 1 zdjęcie */
     #first-p{
         text-align: center;
@@ -480,8 +483,35 @@ footer{
 }
 
 @media (max-width: 500px){
+    /* navbar */
+    .navbar{
+        height: 100%;
+    }
+    .menu{
+        height: 100%;
+    }
+    .ul-menu-main{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    /* navbar */
+
+    /* 1 zdjęcie */
+    #first-h{
+        padding: 0;
+    }
+    /* 1 zdjęcie */
 
     /* 2 zdjęcie */
+    .third-rest{
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+    }
+    .third-rest div{
+        display: none;
+    }
     .third-rest p{
         font-size: 22px;
     }
@@ -520,7 +550,6 @@ footer{
         width: 100%;
         margin: 0 auto;
         order: 2;
-        border: 1px solid black;
         text-align: center;
     }
     .socials a img{

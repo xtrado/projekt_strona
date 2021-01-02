@@ -8,6 +8,7 @@ body{
     flex-direction: column;
 }
 
+/* navbar */
 .navbar{
     display: flex;
     height: 80px;
@@ -54,12 +55,9 @@ body{
     color: black;
     font-size: 30px;
 }
+/* navbar */
 
-.photo{
-    height: 50vh;
-    
-}
-
+/* zdjęcie */
 .main{
     display: grid;
     grid-template-columns: 100px 25vw 60vw 100px;
@@ -111,7 +109,7 @@ body{
     border-bottom: 1px solid white;
     
 }
-
+/* formularz kontaktowy */
 form{
     height: 70%;
     
@@ -167,7 +165,7 @@ form{
 #submit{
     grid-column: 1/5;
 }
-
+/* stopka */
 footer{
     height: 100%;
     margin-left: 100px;
@@ -211,6 +209,7 @@ footer{
 /* Responsywność */
 
 @media (max-width: 1300px){
+    /* stopka */
     footer{
         height: 100%;
         margin-left: 20px;
@@ -234,6 +233,56 @@ footer{
 }
 
 @media (max-width: 900px){
+    .content{
+        width: 100%;
+    }
+    /* navbar */
+    .navbar{
+        height: 80px;
+        width: 100%;
+        margin: 0;
+    }
+    .menu{
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .ul-menu-main{
+        height: 100%;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .ul-menu-main li{
+        margin: 0;
+        width: 100%;
+        height:  100%;
+        font-size: 20px;
+    }
+    .logo{
+        display: none;
+    }
+    /* navbar */
+    /* zdjęcie */
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        text-align: center;
+        width: 60%;
+    }
+    /* formularz kontaktowy */
+    .forms{
+        margin: 0 20px;
+    }
+    /* stopka */
     footer{
         height: 100%;
         margin-left: 20px;
@@ -251,4 +300,75 @@ footer{
         grid-column: 1/3;
         grid-row: 1/4;
     }
+}
+
+@media (max-width: 500px){
+    /* navbar */
+    .navbar{
+        height: 100%;
+    }
+    .menu{
+        height: 100%;
+    }
+    .ul-menu-main{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    /* navbar */
+    /* tekst z mailami */
+    .contact{
+        font-size: 15px;
+    }
+    /* formularz kontaktowy */
+    .form-grid{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .checkboxes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* stopka */
+    footer{
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .foot-text1{
+        height: 40%;
+        text-align: center;
+        font-size: 15px;
+
+    }
+    .foot-p{
+        font-size: 15px;
+    }
+    .foot-text2{
+        height: 20%;
+        text-align: center;
+        order: 3;
+    }
+    .foot-p2{
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+    }
+    .socials{
+        height: 40%;
+        width: 100%;
+        margin: 0 auto;
+        order: 2;
+        text-align: center;
+    }
+    .socials a img{
+        height: 100%;
+        width: 10%;
+    }
+    /* stopka */
 }

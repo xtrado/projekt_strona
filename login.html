@@ -3,43 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
     <link rel="stylesheet" href="css/login.css">
-    <script defer src="js/popup.js"></script>
-    <link rel="shortcut icon" href="images/icons/sign2.jpg">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <button data-modal-target="#modal">Open Modal</button>
-    <div class="modal" id="modal">
-        <div class="modal-header">
-            <div class="title">Example Modal</div>
-            <button data-close-button class="close-button">&times;</button>
-        </div>
-        <div class="modal-body">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod alias ut illo doloremque eum ipsum obcaecati distinctio debitis reiciendis quae quia soluta totam doloribus quos nesciunt necessitatibus, consectetur quisquam accusamus ex, dolorum, dicta vel? Nostrum voluptatem totam, molestiae rem at ad autem dolor ex aperiam. Amet assumenda eos architecto, dolor placeat deserunt voluptatibus tenetur sint officiis perferendis atque! Voluptatem maxime eius eum dolorem dolor exercitationem quis iusto totam! Repudiandae nobis nesciunt sequi iure! Eligendi, eius libero. Ex, repellat sapiente!
-        </div>
-    </div>
-    <button data-modal-target="#modal">Open Modal2</button>
-    <div class="modal" id="modal">
-        <div class="modal-header">
-            <div class="title">Example Modal2</div>
-            <button data-close-button class="close-button">&times;</button>
-        </div>
-        <div class="modal-body">
-            choj
-        </div>
-    </div>
-    <button data-modal-target="#modal3">Open Modal3</button>
-    <div class="modal3" id="modal3">
-        <div class="modal3-header">
-            <div class="title">Example Modal3</div>
-            <button data-close-button class="close-button">&times;</button>
-        </div>
-        <div class="modal3-body">
-            choj
+    <div class="container">
+        <div class="form">
+            <div class="title">
+                Login To SmartParking
+            </div> 
+            <!-- action="successpage.html" onsubmit="return validation();" -->
+            <form id="form" method="get" action="main.html" >
+                <div class="input_wrap">
+                    <label for="input_text">Email or Username</label>
+                    <div class="input_field">
+                        <input type="text" class="input" id="input_text">
+                    </div>
+                </div>
+                <div class="input_wrap">
+                    <label for="input_password">Password</label>
+                    <div class="input_field">
+                        <input type="password" class="input" id="input_password">
+                    </div>
+                </div>
+                <div class="input_wrap">
+                    <span class="error_msg">Incorrect username or password. Please try again</span>
+                    <input type="submit" id="login_btn" class="btn disabled" value="Login" disabled="true" form="form">
+                </div>
+            </form>
         </div>
     </div>
-    <div id="overlay"></div>
-  </body>
+    <script src="js/login.js"></script>
+</body>
 </html>

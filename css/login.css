@@ -1,156 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Jost', sans-serif;
+	outline: none;
+	color: #5c4b51;
+}
 
-  #overlay {
-    position: fixed;
-    opacity: 0;
-    transition: 200ms ease-in-out;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, .5);
-    pointer-events: none;
-  }
-  
-  #overlay.active {
-    opacity: 1;
-    pointer-events: all;
-  }
+body{
+	background: linear-gradient(90deg, rgba(49,49,54,1) 3%, rgba(8,124,13,1) 51%, rgba(49,49,54,1) 100%);
 
-  .modal {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    transition: 200ms ease-in-out;
-    border: 1px solid black;
-    border-radius: 10px;
-    z-index: 10;
-    background-color: white;
-    width: 500px;
-    max-width: 80%;
-  }
-  
-  .modal.active {
-    transform: translate(-50%, -50%) scale(1);
-  }
-  
-  .modal-header {
-    padding: 10px 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid black;
-  }
-  
-  .modal-header .title {
-    font-size: 1.25rem;
-    font-weight: bold;
-  }
-  
-  .modal-header .close-button {
-    cursor: pointer;
-    border: none;
-    outline: none;
-    background: none;
-    font-size: 1.25rem;
-    font-weight: bold;
-  }
-  
-  .modal-body {
-    padding: 10px 15px;
-  }
-  
+}
 
+.container{
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
+.form{
+	width: 425px;
+	height: auto;
+	background: #fff;
+	padding: 35px 50px;
+	border-radius: 2px;
+}
 
-  .modal2 {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    transition: 200ms ease-in-out;
-    border: 1px solid black;
-    border-radius: 10px;
-    z-index: 10;
-    background-color: white;
-    width: 500px;
-    max-width: 80%;
-  }
-  
-  .modal2.active {
-    transform: translate(-50%, -50%) scale(1);
-  }
-  
-  .modal2-header {
-    padding: 10px 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid black;
-  }
-  
-  .modal2-header .title {
-    font-size: 1.25rem;
-    font-weight: bold;
-  }
-  
-  .modal2-header .close-button {
-    cursor: pointer;
-    border: none;
-    outline: none;
-    background: none;
-    font-size: 1.25rem;
-    font-weight: bold;
-  }
-  
-  .modal2-body {
-    padding: 10px 15px;
-  }
-  
+.title{
+	text-align: center;
+	margin-bottom: 20px;
+	font-weight: 700;
+	font-size: 24px;
+}
+
+.input_wrap{
+	margin-bottom: 20px;
+	width: 325px;
+	position: relative;
+}
+
+.input_wrap:last-child{
+	margin-bottom: 0;
+}
+
+.input_wrap label{
+	display: block;
+	margin-bottom: 5px;
+}
+
+input{
+	padding: 15px;
+	width: 100%;
+	border: 1px solid transparent;
+	font-size: 16px;
+	border-radius: 3px;
+}
+
+.input_wrap .input{
+	background: #f5f4f4;
+	padding-right: 35px;
+}
 
 
+.input_wrap .input:focus{
+	border-color: #1dbf73;
+}
 
-  .modal3 {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    transition: 200ms ease-in-out;
-    border: 1px solid black;
-    border-radius: 10px;
-    z-index: 10;
-    background-color: white;
-    width: 500px;
-    max-width: 80%;
-  }
-  
-  .modal3.active {
-    transform: translate(-50%, -50%) scale(1);
-  }
-  
-  .modal3-header {
-    padding: 10px 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid black;
-  }
-  
-  .modal3-header .title {
-    font-size: 1.25rem;
-    font-weight: bold;
-  }
-  
-  .modal3-header .close-button {
-    cursor: pointer;
-    border: none;
-    outline: none;
-    background: none;
-    font-size: 1.25rem;
-    font-weight: bold;
-  }
-  
-  .modal3-body {
-    padding: 10px 15px;
-  }
-  
+.input_field{
+	position: relative;
+}
+
+.input_wrap .btn{
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #fff;
+}
+
+.input_wrap .btn.disabled{
+	background: #727272;
+}
+
+.input_wrap .btn.enabled{
+	background: #1dbf73;
+	cursor: pointer;
+}
+
+.error_msg{
+	font-size: 15px;
+	margin-bottom: 5px;	
+	color: #f74040;
+	display: none;
+}

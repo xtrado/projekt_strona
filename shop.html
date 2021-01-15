@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="images/icons/sign2.jpg">
     <link rel="stylesheet" href="css/shop.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="js/shop.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -15,120 +16,167 @@
             <div class="back">
                 <a href="main.html">Back to main</a>
             </div>
-            <div class="indoor">
+            <div class="content">
                 <header>
-                    <h2>Indoor Guidance Tools</h2>
+                    <h2 class="content-header">Indoor Guidance Tools</h2>
                     <hr>
                 </header>
                 <div class="products">
                     <div class="boxes">
-                        <h2>Speed Bump</h2>
-                        <img src="images/shop/speed_bump.png">
-                        <div class="elem">
-                            <span id="price-indoor">19.99$</span>
-                            <button type="button" id="button-indoor-1">Add to cart</button>
+                        <span class="shop-item-title">Speed Bump</span>
+                        <img class="shop-item-image" src="images/shop/speed_bump.png">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$19.99</span>
+                            <button type="button" class="shop-item-button">Add to cart</button>
                         </div>
                     </div>
                     <div class="boxes">
-                        <h2>Information boards</h2>
-                        <img src="images/shop/boards.jpg">
-                        <div class="elem">
-                            <span id="price-indoor">499.99$</span>
-                            <button type="button" id="button-indoor-2">Add to cart</button>
+                        <span class="shop-item-title">Information boards</span>
+                        <img class="shop-item-image" src="images/shop/boards.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$499.99</span>
+                            <button type="button" class="shop-item-button">Add to cart</button>
                         </div>
                     </div>
                     <div class="boxes">
-                        <h2>CCTV Camera</h2>
-                        <img src="images/shop/camera.jpg">
-                        <div class="elem">
-                            <span id="price-indoor-3">239.99$</span>
-                            <button type="button" id="button-indoor-3">Add to cart</button>
+                        <span class="shop-item-title">CCTV Camera</span>
+                        <img class="shop-item-image" src="images/shop/camera.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$239.99</span>
+                            <button type="button" class="shop-item-button">Add to cart</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="outdoor">
+            <div class="content">
                 <header>
-                    <h2>Outdoor Guidence Tools</h2>
+                    <h2 class="content-header">Outdoor Guidence Tools</h2>
                     <hr>
                 </header>
                 <div class="products">
                     <div class="boxes">
-                        <h2>Parking Limiter</h2>
-                        <img src="images/shop/parking_limiter.jpg">
-                        <div class="elem">
-                            <span id="price-outdoor-1">34.99$</span>
-                            <button type="button" id="button-outdoor-1">Add to cart</button>
+                        <span class="shop-item-title">Parking Limiter</span>
+                        <img class="shop-item-image" src="images/shop/parking_limiter.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$34.99</span>
+                            <button type="button" class="shop-item-button">Add to cart</button>
                         </div>
                     </div>
                     <div class="boxes">
-                        <h2>Parking Lock</h2>
-                        <img src="images/shop/lock.jpg">
-                        <div class="elem">
-                            <span id="price-outdoor-2">49.99$</span>
-                            <button type="button" id="button-outdoor-2">Add to cart</button>
+                        <span class="shop-item-title">Parking Lock</span>
+                        <img class="shop-item-image" src="images/shop/lock.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$49.99</span>
+                            <button type="button" class="shop-item-button">Add to cart</button>
                         </div>
                     </div>
                     <div class="boxes">
-                        <h2>Sensor</h2>
-                        <img src="images/shop/sensor.jpg">
-                        <div class="elem">
-                            <span id="price-outdoor-3">99.99$</span>
-                            <button type="button" id="button-outdoor-3">Add to cart</button>
+                        <span class="shop-item-title">Sensor</span>
+                        <img class="shop-item-image" src="images/shop/sensor.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$99.99</span>
+                            <button type="button" class="shop-item-button">Add to cart</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="add">
+            <div class="content">
                 <header>
-                    <h2>Additional Tools</h2>
+                    <h2 class="content-header">Additional Tools</h2>
                     <hr>
                 </header>
                 <div class="products">
                     <div class="boxes">
-                        <h2>Parking Gate</h2>
-                        <img src="images/shop/gate.jpg">
-                        <div class="elem">
-                            <span id="price-add-1">749.99$</span>
-                            <button type="button" id="button-add-1">Add to cart</button>
+                        <span class="shop-item-title">Parking Gate</span>
+                        <img class="shop-item-image" src="images/shop/gate.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$749.99</span>
+                            <button type="button" class="shop-item-button">Add to cart</button>
                         </div>
                     </div>
                     <div class="boxes">
-                        <h2>Bollard</h2>
-                        <img src="images/shop/bollard.jpg">
-                        <div class="elem">
-                            <span id="price-add-2">129.99$</span>
-                            <button type="button" id="button-add-2">Add to cart</button>
+                        <span class="shop-item-title">Bollard</span>
+                        <img class="shop-item-image" src="images/shop/bollard.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$129.99</span>
+                            <button type="button" class="shop-item-button">Add to cart</button>
                         </div>
                     </div>
                     <div class="boxes">
-                        <h2>Mirror</h2>
-                        <img src="images/shop/mirror.jpg">
-                        <div class="elem">
-                            <span id="price-add-2">79.99$</span>
-                            <button type="button" id="button-add-2">Add to cart</button>
+                        <span class="shop-item-title">Mirror</span>
+                        <img class="shop-item-image" src="images/shop/mirror.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$79.99</span>
+                            <button type="button" class="shop-item-button">Add to cart</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <section class="content-section">
+            <div class="cash">
                 <h2 class="section-header">CART</h2>
                 <div class="cart-row">
-                    <span class="item">ITEM</span>
-                    <span class="price">PRICE</span>
-                    <span class="quantity">QUANTITY</span>
+                    <span class="item heads">ITEM</span>
+                    <span class="price heads">PRICE</span>
+                    <span class="quantity heads">QUANTITY</span>
                 </div>
                 <div class="cart-items">
+                    <div class="cart-row">
+                        <div class="cart-item cart-column">
+                            <img class="cart-item-image" src="images/icons/cart.png" width="100" height="100">
+                            <span class="cart-item-title">T-Shirt</span>
+                        </div>
+                        <span class="cart-price cart-column">$19.99</span>
+                        <div class="cart-quantity cart-column">
+                            <input class="cart-quantity-input" type="number" value="1">
+                            <button class="btn btn-danger" type="button">REMOVE</button>
+                        </div>
+                    </div>
+                    <div class="cart-row">
+                        <div class="cart-item cart-column">
+                            <img class="cart-item-image" src="images/icons/cart.png" width="100" height="100">
+                            <span class="cart-item-title">Album 3</span>
+                        </div>
+                        <span class="cart-price cart-column">$9.99</span>
+                        <div class="cart-quantity cart-column">
+                            <input class="cart-quantity-input" type="number" value="2">
+                            <button class="btn btn-danger" type="button">REMOVE</button>
+                        </div>
+                    </div>
                 </div>
                 <div class="cart-total">
-                    <strong class="cart-total-title">Total</strong>
-                    <span class="cart-total-price">$0</span>
+                    <strong id="cart-total-title">Total</strong>
+                    <span id="cart-total-price">$0</span>
                 </div>
-                <button class="btn-purchase" type="button">PURCHASE</button>
-            </section>
+                <button class="shop-item-button btn-purchase" type="button">PURCHASE</button>
+            </div>
         </div>
-        <div class="footer">
-
+        <div class="foot">
+            <footer>
+                <div class="foot-text1">
+                    <p class="foot-p">
+                        The complete parking management solution.
+                    </p>
+                </div>
+                <div class="foot-text2">
+                    <p class="foot-p2">
+                        Smart Parking &copy 2020 
+                    </p>
+                </div>
+                <div class="socials">
+                    <a href="https://pl.linkedin.com/company/cd-projekt-red">
+                        <img src="images/icons/socials/icons8-linkedin-96.png">
+                    </a>
+                    <a href="https://www.facebook.com/robertmaklowiczofficial">
+                        <img src="images/icons/socials/icons8-facebook-96.png">
+                    </a>
+                    <a href="https://twitter.com/Piechocinski">
+                        <img src="images/icons/socials/icons8-twitter-96.png">
+                    </a>
+                    <a href="https://www.instagram.com/miserable_men/">
+                        <img src="images/icons/socials/icons8-instagram-96.png">
+                    </a>
+                </div>
+            </footer>
         </div>
     </div>
 </body>

@@ -24,6 +24,7 @@ body{
     color: black;
     width: 20%;
 }
+
 .boxes img{
     height: 70%;
     width: 100%;
@@ -46,15 +47,17 @@ hr{
 }
 .products{
     display: flex;
-    border: 3px solid black;
     justify-content: space-evenly;
     height: 50vh;
     margin: 30px;
 }
 .boxes{
-    border: 3px dotted green;
     width: 20%;
     text-align: center;
+    border: 1px solid  #31A442;
+    height: 100%;
+    border-radius: 5px;
+    padding: 5px;
 }
 .shop-item-title {
     display: block;
@@ -68,13 +71,12 @@ hr{
 .shop-item-details{
     display: flex;
     justify-content: space-between;
-    border: 2px solid red;
     height: 50px;
     line-height: 50px;
 }
 .shop-item-button{
     color: white;
-    background-color: #56CCF2;
+    background-color: #31A442;
     border: none;
     border-radius: .3em;
     margin: 5px;
@@ -83,7 +85,7 @@ hr{
     width: 100px;
 }
 .shop-item-button:hover {
-    background-color: green;
+    background-color: #268F2C;
 }
 .cash{
     text-align: center;
@@ -156,7 +158,7 @@ hr{
     height: 34px;
     width: 50px;
     border-radius: 5px;
-    border: 1px solid #56CCF2;
+    border: 1px solid #31A442;
     background-color: #eee;
     color: #333;
     padding: 0;
@@ -216,7 +218,7 @@ footer{
     text-align: center;
 }
 .foot-p{
-    color: green;
+    color: #31A442;
     font-size: 28px;
     font-weight: bold;
 }

@@ -8,8 +8,11 @@
 }
 
 body{
-	background: linear-gradient(90deg, rgba(49,49,54,1) 3%, rgba(8,124,13,1) 51%, rgba(49,49,54,1) 100%);
-
+	background-image: url("../images/parking_podziemny.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 .container{

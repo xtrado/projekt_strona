@@ -51,10 +51,6 @@ body{
     color: #645C5C;
 }
 
-.ul-menu-main :hover{
-    color: black;
-    font-size: 30px;
-}
 /* navbar */
 
 /* zdjęcie */
@@ -186,7 +182,7 @@ footer{
     text-align: center;
 }
 .foot-p{
-    color: green;
+    color: #31A442;
     font-size: 28px;
     font-weight: bold;
 }

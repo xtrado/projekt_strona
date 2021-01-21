@@ -28,7 +28,7 @@ function ready(){
 }
 
 function purchaseClicked(){
-    alert('Thank you for you purchase')
+    alert('Dziękujemy za zakup w naszym sklepie')
     let cartItems = document.getElementsByClassName('cart-items')[0]
     while (cartItems.hasChildNodes()){
         cartItems.removeChild(cartItems.firstChild)
@@ -67,7 +67,7 @@ function addItemToCart(title, price, img){
     let cartItemsNames = cartItems.getElementsByClassName('cart-item-title');
     for (let i = 0; i < cartItemsNames.length; i++){
         if (cartItemsNames[i].innerText == title){
-            alert('This item is already in the cart')
+            alert('Ten przedmiot znajduje się już w koszyku')
             return
         }
     }
@@ -80,7 +80,7 @@ function addItemToCart(title, price, img){
         <span class="cart-price cart-column">${price}</span>
         <div class="cart-quantity cart-column">
             <input class="cart-quantity-input" type="number" value="1">
-            <button class="btn btn-danger" type="button">REMOVE</button>
+            <button class="btn btn-danger" type="button">USUŃ</button>
         </div>`
     cartRow.innerHTML = cartRowContent;
     cartItems.append(cartRow);

@@ -76,6 +76,7 @@ body{
     margin: 0 auto;
     font-size: 50px;
     text-align: center;
+    backdrop-filter: blur(2px);
     grid-row: 2/3;
     grid-column: 2/3;
 }
@@ -86,7 +87,7 @@ body{
     grid-row:4/5;
     grid-column: 1/4;
     font-size: 23px;
-    backdrop-filter: contrast(40%);
+    backdrop-filter: blur(2px);
     text-align: center;
 }
 
@@ -144,12 +145,12 @@ body{
     
 }
 .pic-1-text p{
-    font-size: 23px;
+    font-size: 27px;
     color: white;
     height: 50%;
-    width: 75%;
+    width: 80%;
     align-self: center;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
 }
 
 .photo2{
@@ -171,11 +172,11 @@ body{
     letter-spacing: 0.5px;
 }
 .pic-2-text p{
-    font-size: 23px;
+    font-size: 27px;
     height: 50%;
-    width: 75%;
+    width: 80%;
     align-self: center;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
 }
 
 /* obrazki */
@@ -334,14 +335,12 @@ footer{
         flex-direction: column;
         align-items: center;
         height: 100%;
-        border: 3px solid black;
     }
     .pic:nth-child(odd){
         display: flex;
         flex-direction: column;
         align-items: center;
         height: 100%;
-        border: 3px solid black;
     }
     .pic-1-text{
         width: 100%;

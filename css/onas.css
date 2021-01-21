@@ -293,6 +293,7 @@ footer{
   
 .modal-body {
     padding: 10px 15px;
+    text-align: left;
 }
 
 .modal2.active {

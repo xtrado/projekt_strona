@@ -69,10 +69,7 @@ body{
 .lets{
     font-size: 40px;
 }
-.talk{
-    margin-top: -30px;
-    font-size: 40px;
-}
+
 
 .contact{
     grid-column: 2/3;
